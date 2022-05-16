@@ -17,7 +17,7 @@
 						loginHandler($_POST);
 					}
 					echo '<script>alert("Login unsuccessful. Try again!")</script>';
-					header("Refresh:0; url=ui_login.php");
+					header("Refresh:0; url=index.php");
 					die();
 					break;
 
@@ -77,7 +77,7 @@
 			error_log("shopify: " . "Successfully Validated!" . $data['name']) ;
 			$registerData['user_type'] = 'U';
 			if(registerUser($registerData)) {
-				header("Location:ui_login.php");
+				header("Location:index.php");
 				die();
 			}
 		}
@@ -100,7 +100,7 @@
 			}
 		}
 		echo "<script>alert('Log in failed!');</script>";
-		header("Refresh:0; url=ui_login.php");
+		header("Refresh:0; url=index.php");
 		die();
 
 	}

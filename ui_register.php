@@ -36,7 +36,7 @@
                      </tr>
                      <tr>
                         <th><br><span class="star">* Mandatory Fields</span><br></br>
-                        <th><br>Already a User?  <a href="ui_login.php">Sign In!</a><br></br>
+                        <th><br>Already a User?  <a href="index.php">Sign In!</a><br></br>
                      </tr>
                      <tr class="subbtn">
                         <th  colspan="2"><input class="button" type="submit" name="form_type" value="Register" style="background-color:#1c18ab;"></th>
